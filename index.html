@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#562EDA] flex justify-center items-center h-[100vh]">
+   <div class="w-[500px] text-center border">
+    <h2 class="text-white font-bold text-[32px]">Mars It Calkulator</h2>
+    <form class="flex flex-wrap  gap-[20px] w-[100px] mx-auto  w-[200px]">
+        <input type="number" id="number1" class="p-[5px] bg-white rounded-[2]">
+        <input type="number" id="number2" class="p-[5px] bg-white rounded-[2]">
+    </form>
+    <br>
+    <div class="flex flex-wrap w-[350px] justify-center gap-[20px] mx-auto">
+        <button class="btn btn-success text-white bg-green-500" id="add">Yeg'indi</button>
+        <button class="btn btn-success text-white bg-green-500" id="minus">Ayirma</button>
+        <button class="btn btn-success text-white bg-green-500" id="kopaytit">Ko'paytma</button>
+        <button class="btn btn-success text-white bg-green-500" id="bol">Bo'lma</button>
+       </div>
+       <p class="text-yellow-500" id="res">Result</p>
+   </div>
+
+   <script type="module" src="script.js"></script>
+</body>
+</html>
